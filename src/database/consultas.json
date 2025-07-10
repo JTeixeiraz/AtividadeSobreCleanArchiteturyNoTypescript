@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "pacienteId": 23,
+    "medicoId": 20,
+    "data": 1752206568398,
+    "receita": "null"
+  },
+  {
+    "id": 2,
+    "pacienteId": 23,
+    "medicoId": 20,
+    "data": 1752292968398,
+    "receita": "null"
+  },
+  {
+    "id": 3,
+    "pacienteId": 23,
+    "medicoId": 20,
+    "data": 1752379368398,
+    "receita": "Tomar Amoxicilina 500mg de 8 em 8 horas por 7 dias. Manter repouso e hidratação."
+  },
+  {
+    "id": 4,
+    "pacienteId": 23,
+    "medicoId": 20,
+    "data": 1752465768398,
+    "receita": "null"
+  },
+  {
+    "id": 5,
+    "pacienteId": 23,
+    "medicoId": 20,
+    "data": 1752552168398,
+    "receita": "null"
+  }
+]
