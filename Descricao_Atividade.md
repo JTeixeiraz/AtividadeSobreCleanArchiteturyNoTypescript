@@ -28,13 +28,13 @@ RA3: Toda entidade/modelo que precisar ARMAZENAR deve ter um repositório para e
 Requisitos Funcionais
 v- RF1: O sistema deve permitir cadastrar um paciente, listar todos os pacientes, listar um paciente por ID e remover um paciente por ID.
 v- RF2: O sistema deve permitir cadastrar um médico, listar todos os médicos, listar um médico por ID e remover um médico por ID.
-RF3: O sistema deve permitir registrar e armazenar consultas. Entende-se uma consulta o registro de um paciente com um médico em uma data, podendo ter ou não uma receita associada.
-RF4: O sistema deve permitir listas todas as consultas de um certo paciente, dado o ID do paciente.
-RF5: O sistema deve permitir listas todas as consultas de um certo paciente, dado o nome do paciente (se houver repetido, considerar o primeiro encontrado)
-RF6: O sistema deve permitir listas todas as consultas de um certo médico, dado o ID do médico.
-RF7: O sistema deve permitir listas todas as consultas de um certo médico, dado o nome do médico (se houver repetido, considerar o primeiro encontrado)
-RF8: O sistema deve permitir listar médicos dada uma especialidade/patologia fornecida (TABELA !)
-RF9: O sistema deve verificar se o paciente possui uma patologia identificada: se sim, somente deve agendar consulta com médicos dessa especialidade; caso ao contrário esse paciente deve registrar com médicos clínicos gerais (TABELA 1)
+v- RF3: O sistema deve permitir registrar e armazenar consultas. Entende-se uma consulta o registro de um paciente com um médico em uma data, podendo ter ou não uma receita associada.
+TODO:- RF4: O sistema deve permitir listas todas as consultas de um certo paciente, dado o ID do paciente.
+TODO:- RF5: O sistema deve permitir listas todas as consultas de um certo paciente, dado o nome do paciente (se houver repetido, considerar o primeiro encontrado)
+TODO:- RF6: O sistema deve permitir listas todas as consultas de um certo médico, dado o ID do médico.
+TODO: O sistema deve permitir listas todas as consultas de um certo médico, dado o nome do médico (se houver repetido, considerar o primeiro encontrado)
+TODO: O sistema deve permitir listar médicos dada uma especialidade/patologia fornecida (TABELA !)
+TODO: O sistema deve verificar se o paciente possui uma patologia identificada: se sim, somente deve agendar consulta com médicos dessa especialidade; caso ao contrário esse paciente deve registrar com médicos clínicos gerais (TABELA 1)
 
 
 
