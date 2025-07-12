@@ -27,4 +27,14 @@ export class QueryRepository{
         const filtered = consultas.filter(u => u.id !== id);
         this.saveAll(filtered)
     }
+
+    getByPatientId(patientId: number): Query[] {
+        const queries = this.getAll();
+        return queries.filter(q => q.pacienteId === patientId);
+    }
+
+    getByDoctorId(doctorId: number): Query[] {
+        const queries = this.getAll();
+        return queries.filter(q => q.medicoId === doctorId);
+    }
 }

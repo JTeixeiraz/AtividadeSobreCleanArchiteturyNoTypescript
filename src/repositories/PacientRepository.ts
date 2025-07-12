@@ -27,4 +27,9 @@ export class PacientRepository{
         const filtered = pacientes.filter(u => u.id !== id);
         this.saveAll(filtered)
     }
+
+    getByName(name: string): Pacientes | undefined {
+        const pacients = this.getAll();
+        return pacients.find(p => p.nome === name);
+    }
 }

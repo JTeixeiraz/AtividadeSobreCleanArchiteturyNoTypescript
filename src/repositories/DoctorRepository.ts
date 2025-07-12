@@ -27,4 +27,14 @@ export class DoctorRepository{
         const filtered = doctors.filter(u => u.id !== id);
         this.saveAll(filtered) 
     }
+
+    getByName(name: string): Doctor | undefined {
+        const doctors = this.getAll();
+        return doctors.find(d => d.nome === name);
+    }
+
+    getByEspecialidade(especialidadeCodigo: number): Doctor[] {
+        const doctors = this.getAll();
+        return doctors.filter(d => d.especialidadeCodigo === especialidadeCodigo);
+    }
 }
